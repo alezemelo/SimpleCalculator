@@ -131,7 +131,7 @@ const Calculator = () => {
 
                     <Row className="mt-3">
                         <Col>
-                        <h5 className="text-center">Result: {calculateResult()}</h5>
+                            <h5 className="text-center">Result: {calculateResult()}</h5>
                         </Col>
                     </Row>
                 </div>
