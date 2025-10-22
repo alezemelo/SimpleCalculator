@@ -1,4 +1,16 @@
-body{
-  margin: o;
-  background: linear-gradient(to right, #00AAFF, #00FF6C);
+
+.app-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+  background: linear-gradient(270deg, #056bda, #c4eef7,#3195d2, #6cc0d2);
+  background-size: 800% 800%; 
+  animation: gradientShift 60s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
